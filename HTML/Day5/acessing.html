@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessing data Attributes with Javascript</title>
+</head>
+<body>
+    <button id="myButton" data-user-id="100" data-role="client">Click Me</button>
+    <script>
+        //Javascript to acess data attributes
+        const button = document.getElementById("myButton");
+
+        //accessing the data attributes using dataset
+
+        const userId = button.dataset.userId;
+        const role= button.dataset.role;
+
+        //logging to console
+        console.log("User Id:", userId)
+        console.log("Role:", role)
+
+        button.addEventListener('click' ,()=>{
+            alert(`User Id: ${userId} Role : ${role}`)
+        })
+    </script>
+</body>
+</html>
