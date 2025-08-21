@@ -1,0 +1,114 @@
+<!-- types of tags  -->
+
+<!-- 1.Structure(basic) tags -->
+<!-- html
+    head
+    tittle
+    body -->
+
+<!-- 2.heading and text tags -->
+ <!-- h1 to h6 
+p
+br
+hr -->
+
+
+<!-- 3.Formattings tags -->
+<!-- b
+strong
+i
+em
+u
+mark -->
+
+<!-- 4.Link and media tags
+a
+img
+audio
+video
+iframe -->
+
+<!-- 5 .list tags
+ul
+ol
+li
+dt  -->
+
+<!-- 6. table tags 
+table
+tr
+td
+th
+caption -->
+
+<!-- 7 form tags 
+
+form
+input
+textarea 
+button
+select as well as option
+label -->
+
+<!-- 8.semantic tags (html5)
+header
+nav
+section
+articles
+aside
+fotter
+main
+figure as well as figcaption
+
+9 meta and script tags -->
+<!-- meta
+link
+style
+script -->
+
+
+<!-- 4.Link and media tags
+a
+img
+audio
+video
+iframe -->
+
+<!-- 5 .list tags
+ul
+ol
+li
+dt  -->
+
+<!-- 6. table tags 
+table
+tr
+td
+th
+caption -->
+
+<!-- 7 form tags 
+
+form
+input
+textarea 
+button
+select as well as option
+label -->
+
+<!-- 8.semantic tags (html5)
+header
+nav
+section
+articles
+aside
+fotter
+main
+figure as well as figcaption
+
+9 meta and script tags -->
+<!-- meta
+link
+style
+script -->
+
