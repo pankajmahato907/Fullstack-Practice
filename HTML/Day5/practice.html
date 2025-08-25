@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Form</title>
+</head>
+<body>
+    <h1>School Registration Form</h1>
+    <form action="/submit">
+        <label for="first name">First Name :</label>
+        <input type="text" name="first" id="first" placeholder="Enter yr last name" required>
+
+        <label for="first name">Last Name :</label>
+        <input type="text" name="last" id="last" placeholder="Enter yr first name" required>
+<br> <br>
+
+        <label for="email">Email :</label>
+        <input type="email" placeholder="enter yr email" required>
+        <br><br>
+        <label for="class">Class :</label>
+        <select name="class" id="">
+            <option value="">Select</option>
+            <option value="1">Nursury</option>
+            <option value="1">LKG</option>
+            <option value="1">UKG</option>
+        </select>
+        <br>
+        <br>
+
+         <fieldset>
+            <legend>Gender</legend>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">male</label>
+
+        <input type="radio" id="male" name="gender" value="female" required>
+        <label for="female">Female</label>
+
+        <input type="radio" id="male" name="gender" value="others" required>
+         <label for="others">Others</label>
+        </fieldset> 
+        <br>
+
+        <fieldset>
+        <legend>Choose yr hobbies</legend>
+        <label for="reading">reading</label>
+        <input type="checkbox" id="reading" name="hobbies" value="reading" required>
+
+        <label for="reading">reading</label>
+        <input type="checkbox" id="reading" name="hobbies" value="reading" required>
+
+        <label for="reading">reading</label>
+        <input type="checkbox" id="reading" name="hobbies" value="reading" required>
+        </fieldset>
+
+        <br>
+        <label for="DOB">Date of Birth : </label>
+        <input type="date">
+        <br> <br>
+        <label for="parent">Parent/ Gurdian Name :</label>
+        <input type="text" placeholder="firstname" required>
+        <input type="text" placeholder="lastname ">
+        <br> <br>
+        <label for="contact" >Parent contact no: </label>
+        <input type="number" required>
+<br><br>
+        <label for="country">Select yr country :</label>
+        <select name="country" id="country">
+            <option value="Nepal">Select</option>
+            <option value="USA">Nepal</option>
+            <option value="USA">India</option>
+            <option value="USA">China</option>
+        </select>
+<br> <br>
+        <button >Submit</button>
+    </form>
+    
+</body>
+</html>

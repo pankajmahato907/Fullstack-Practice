@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="/submit">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Write yr username" required>
+
+        <br>
+        <label for="Email">Email</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="birthdate">birthdate</label>
+        <input type="date" id="birth-date" value="birth-date">
+
+        <fieldset>
+            <legend>Gender</legend>
+        <label for="male">male</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+
+        <label for="female">Female</label>
+        <input type="radio" id="male" name="gender" value="female" required>
+
+        <label for="others">Others</label>
+        <input type="radio" id="male" name="gender" value="others" required>
+        </fieldset>
+
+        <fieldset>
+        <legend>Choose yr hobbies</legend>
+        <label for="reading">reading</label>
+        <input type="checkbox" id="reading" name="hobbies" value="reading" required>
+
+        <label for="reading">reading</label>
+        <input type="checkbox" id="reading" name="hobbies" value="reading" required>
+
+        <label for="reading">reading</label>
+        <input type="checkbox" id="reading" name="hobbies" value="reading" required>
+        </fieldset>
+
+        <!-- Select Drop down -->
+
+        <label for="country">Select yr country</label>
+        <select name="country" id="country">
+            <option value="">Select</option>
+            <optgroup label="Nepal">
+                <option value="ktm">KTM</option>
+                <option value="ktm">Janakpur</option>
+                <option value="ktm">Pokhara</option>
+            </optgroup>
+            <option value="USA">USA</option>
+            <option value="USA">Nepal</option>
+            <option value="USA">India</option>
+            <option value="USA">China</option>
+        </select>
+        <br>
+
+
+
+        <button>Submit</button>
+    </form>
+</body>
+</html>
