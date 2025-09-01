@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Start</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <style>
+        /* Universal Selector for entire and used wit (*) */
+        *{
+            background-color: antiquewhite;
+        }
+        
+        /* Type selector : we can slect by (tag name* like h1, p, ul, */
+        h1{
+            background-color: blue;
+        }
+
+        /* class selector , we slelct byusing (.) */
+        .paragraph{
+            color: brown;
+        }
+
+        /* id selector, used by (#) */
+        #list{
+            color: blue;
+        }
+
+        /* Attribute slector based on */
+        input[type="text"]{
+            /* border: 1px solid rgb(29, 120, 230) */
+            color: brown;
+        }
+
+        /* Descenant selector target elements that are descent (children, parent) */
+        div p{
+            color: green;
+        }
+
+        /* child selector target direct children of a specific element */
+        ul > li{
+            list-style-type: circle;
+        }
+
+        /* pseudo-class this helps to chnage the styles when we hover */
+        h1:hover{
+            background: red;
+            color: silver;
+            font-size: 30px;
+        }
+
+        /* pseudo-element targets a part of an eleemnts , like its first letter line chnage the size  */
+        h1 ::first-letter{
+            font-size: 70px;
+        }
+        p::first-letter{
+            font-size: 28px;
+        }
+     </style>
+<body>
+    <div  id="main-container" class="container">
+        <h1>
+        Hello How are you
+    </h1>
+    <p class="paragraph">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, ab? Assumenda aut nam suscipit odio, hic animi quam quaerat? Tenetur provident saepe in ducimus laudantium, doloribus quasi dignissimos ipsum praesentium.
+    </p>
+    <ul id="list">
+        <li>Organge</li>
+        <li>Organge</li>
+        <li>Organge</li>
+    </ul>
+    <hr>
+    <form action="">
+        <label for="name">Name :</label>
+        <input type="text" placeholder="Enter yr name">
+    </form>
+
+    </div>
+</body>
+</html>
