@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <style>
+        h1{
+
+            /* It take full space either h1 or div until we use display inline  on it */
+            background-color: red;
+            /* display: inline; */
+        }
+
+        span{  
+            /* span take only the require place until we use block */
+            background-color: red;
+            /* display: block; */
+        }
+
+        ul{
+            background-color: skyblue;
+            list-style: none;
+            height: 70px;
+            line-height: 70px;
+        }
+
+        ul li{
+            background-color: burlywood;
+            display: inline-block;
+            padding-left: 35px;
+            padding-right: 35px;
+        }
+    </style>
+</head>
+<body>
+    <h1>I am only h1</h1>
+    <span>I am span so i take only require space</span>
+
+
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+</body>
+</html>
