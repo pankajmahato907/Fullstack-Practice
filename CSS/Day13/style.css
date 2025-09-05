@@ -1,0 +1,66 @@
+.container{
+    display: grid ;
+    height: 100vh;
+    color: violet;
+
+    /* 1fr =120 rem */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 1.5fr 1.3fr 0.8fr;
+    grid-template-areas: "navbar navbar navbar navbar"
+                         "Sidebar main main main"
+                         "Sidebar box1 box2 box3"
+                         "Sidebar footer footer footer";
+grid-gap: 0.2rem;
+text-align: center;
+font-size: 1.5rem;
+
+}
+
+.nav{
+    background: wheat;
+    grid-area: navbar;
+}
+.main{
+    background: pink;
+    grid-area: main;
+}
+
+.Sidebar{
+    background: blue;
+    grid-area: Sidebar;
+}
+
+.box1{
+    background: red;
+    grid-area: box1;
+}
+
+.box2{
+    background: green;
+    grid-area: box2;
+}
+
+.box3{
+    background: peru;
+    grid-area: box3;
+
+
+}
+.footer{
+    background: yellow;
+    grid-area: footer;
+}
+
+@media only screen and (max-width:640px){
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 2fr 0.2fr 1.2fr 1.2fr  1fr;
+        grid-template-areas: "navbar"
+                            "main"
+                            "Sidebar"
+                            "box1"
+                            "box2"
+                            "box3"
+                            "footer"
+    }
+}
